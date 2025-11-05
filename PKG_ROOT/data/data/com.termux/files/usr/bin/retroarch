@@ -1,3 +1,5 @@
 #!/data/data/com.termux/files/usr/bin/sh
+## this is the warper script for retroarch 
+## the real retroarch bianary install location is "$PREFIX/games"
 export LD_LIBRARY_PATH="$PREFIX/lib/retroarch:$LD_LIBRARY_PATH"
 exec "$PREFIX/games/retroarch/retroarch" "$@"

@@ -1,6 +1,10 @@
 #!/data/data/com.termux/files/usr/bin/sh
-# Post-install script for RetroArch .deb
-echo "[•] You can make more requests in ig: shado_with_linux "
+# Post-install script for RetroArch emu
+## _____ disclaimer _____ ##
+## this build is for arm only but also might be able to run at aarch64
+## please remove this script if this causes any problem
+
+echo "[•] You can make more requests in ig: @shado_with_linux "
 # Check if X11 repo exists
 if [ ! -f "$PREFIX/etc/apt/sources.list.d/x11.list" ]; then
     echo "Error: X11 repository is not enabled."
